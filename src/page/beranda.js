@@ -144,7 +144,7 @@ addToCart = (selectedItem) => {
         // hapus data
         tempList.splice(index, 1)
 
-        this.setState({buku: tempList})
+        this.setState({list: tempList})
     }
 }
 searching = event => {
